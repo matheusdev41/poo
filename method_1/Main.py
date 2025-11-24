@@ -1,8 +1,11 @@
 from Pessoa import Pessoa
 
 p1 = Pessoa.por_ano_nascimento('Luiz', 1996)
-print(p1.idade)
+print(p1)
+print(p1.nome, p1.idade)
 p1.get_ano_nascimento()
+print(Pessoa.gera_id())
+print(p1.gera_id())
 
 
 # p2 = Pessoa('João', 32)
